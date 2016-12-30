@@ -1,15 +1,15 @@
-import { Injectable} from '@angular/core';
-import { Http,Response} from '@angular/http';
-import { Headers,RequestOptions} from '@angular/http';
-import { Observable} from 'rxjs/Rx';
-import { Battery} from '../components/battery';
+import { Injectable } from '@angular/core';
+import { Http, Response } from '@angular/http';
+import { Headers, RequestOptions } from '@angular/http';
+import { Observable } from 'rxjs/Rx';
+import { Battery } from '../components/battery';
 
 @Injectable()
 export class BatteryService {
 
 	private url: string = 'http://localhost:8080/batteries911/battery';
 
-	constructor(private http:Http) {
+	constructor(private http: Http) {
 	}
 
 	getBatteries(): Observable<Battery[]> {

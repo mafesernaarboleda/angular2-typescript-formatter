@@ -1,13 +1,13 @@
 export class Battery {
-	cdBattery:number;
-	dsBrand:string;
-	dsAmperage:string;
-	dsVoltage:string;
-	dsCapacity:string;
-	dsDiameter:string;
-	dsHeight:string;
-	dsWeight:string;
-	dsCrankingAmps:string;
+	cdBattery: number;
+	dsBrand: string;
+	dsAmperage: string;
+	dsVoltage: string;
+	dsCapacity: string;
+	dsDiameter: string;
+	dsHeight: string;
+	dsWeight: string;
+	dsCrankingAmps: string;
 
 	constructor(cdBattery, dsBrand, dsAmperage, dsVoltage, dsCapacity,
 		dsDiameter, dsHeight, dsWeight, dsCrankingAmps) {
